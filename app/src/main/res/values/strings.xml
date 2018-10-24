@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ABNDP5</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title">title</string>
+    <string name="info">info</string>
+    <string name="about">ABOUT</string>
+    <string name="restaurants">RESTAURANTS</string>
+    <string name="temples">TEMPLES</string>
+    <string name="hotels">HOTELS</string>
+
+</resources>
