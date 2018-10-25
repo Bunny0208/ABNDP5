@@ -27,9 +27,9 @@ public class RestaurantsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.card,container,false);
 
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Adda", "KIIT College Road, Patia, Bhubaneswar", R.drawable.adda));
-        words.add(new Word("Moti Mahal ", "Nandankanan Rd, Patia, Bhubaneswar", R.drawable.mm));
-        words.add(new Word("Barbeque Nation", "Chandrasekharpur, Bhubaneswar", R.drawable.bbqn));
+        words.add(new Word(getString(R.string.res1), getString(R.string.res1_add), R.drawable.adda));
+        words.add(new Word(getString(R.string.res2), getString(R.string.res2_add), R.drawable.mm));
+        words.add(new Word(getString(R.string.res3), getString(R.string.res3_add), R.drawable.bbqn));
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.bg);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);

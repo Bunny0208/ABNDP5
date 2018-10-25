@@ -1,7 +1,9 @@
 package com.example.android.abndp5;
 
 
+import android.content.Context;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,6 +19,8 @@ import java.util.ArrayList;
 public class AboutFragmnet extends Fragment {
 
 
+
+
     public AboutFragmnet() {
         // Required empty public constructor
     }
@@ -27,7 +31,7 @@ public class AboutFragmnet extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.card,container,false);
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Bhubaneswar", "Bhubaneswar is an ancient city in India’s eastern state of Odisha, formerly Orissa. Many temples built from sandstone are dotted around Bindu Sagar Lake in the old city, including the 11th-century Hindu Lingaraja Temple. Outside Rajarani Temple are sculpted figures of the guardians of the 8 cardinal and ordinal directions. Jain antiques, weaponry and indigenous pattachitra paintings fill the Odisha State Museum.", R.drawable.bbsr));
+        words.add(new Word(getString(R.string.city), getString(R.string.description), R.drawable.bbsr));
 
 
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.bg);

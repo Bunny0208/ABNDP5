@@ -28,9 +28,9 @@ public class TemplesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.card,container,false);
 
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Lingaraja Temple", "Rath Rd, Lingaraj Nagar, Old Town, Bhubaneswar", R.drawable.lt));
-        words.add(new Word("ISKCON Temple", " Nayapalli, Bhubaneswar", R.drawable.isc));
-        words.add(new Word("Jagannath Temple", "Puri, Odisha", R.drawable.jj));
+        words.add(new Word(getString(R.string.temp1), getString(R.string.temp1_add), R.drawable.lt));
+        words.add(new Word(getString(R.string.temp2), getString(R.string.temp2_add), R.drawable.isc));
+        words.add(new Word(getString(R.string.temp3), getString(R.string.temp3_add), R.drawable.jj));
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.bg);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);

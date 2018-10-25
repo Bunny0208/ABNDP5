@@ -28,9 +28,9 @@ public class HotelsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.card,container,false);
 
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Hotel Excellency Bhubaneswar", "Near Bhubaneswar Railway station, Bhubaneswar", R.drawable.he));
-        words.add(new Word("Empires Hotel ", " Saheed Nagar, Bhubaneswar", R.drawable.emp));
-        words.add(new Word("Ginger Hotel", "Nayapalli, Bhubaneswar", R.drawable.gin));
+        words.add(new Word(getString(R.string.ht1), getString(R.string.ht1_add), R.drawable.he));
+        words.add(new Word(getString(R.string.ht2), getString(R.string.ht2_add), R.drawable.emp));
+        words.add(new Word(getString(R.string.ht3), getString(R.string.ht3_add), R.drawable.gin));
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.bg);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);

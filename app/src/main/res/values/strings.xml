@@ -8,5 +8,24 @@
     <string name="restaurants">RESTAURANTS</string>
     <string name="temples">TEMPLES</string>
     <string name="hotels">HOTELS</string>
-
+    <string name="city">Bhubaneswar</string>
+    <string name="description">Bhubaneswar is an ancient city in India’s eastern state of Odisha, formerly Orissa. Many temples built from sandstone are dotted around Bindu Sagar Lake in the old city, including the 11th-century Hindu Lingaraja Temple. Outside Rajarani Temple are sculpted figures of the guardians of the 8 cardinal and ordinal directions. Jain antiques, weaponry and indigenous pattachitra paintings fill the Odisha State Museum.</string>
+    <string name="res1">Adda</string>
+    <string name="res1_add">KIIT College Road, Patia, Bhubaneswar</string>
+    <string name="res2">Moti Mahal</string>
+    <string name="res2_add">Nandankanan Rd, Patia, Bhubaneswar</string>
+    <string name="res3">Barbeque Nation</string>
+    <string name="res3_add">Chandrasekharpur, Bhubaneswar</string>
+    <string name="ht1">Hotel Excellency Bhubaneswar</string>
+    <string name="ht1_add">Near Bhubaneswar Railway station, Bhubaneswar</string>
+    <string name="ht2">Empires Hotel</string>
+    <string name="ht2_add">Saheed Nagar, Bhubaneswar</string>
+    <string name="ht3">Ginger Hotel</string>
+    <string name="ht3_add">Nayapalli, Bhubaneswar</string>
+    <string name="temp1">Lingaraja Temple</string>
+    <string name="temp1_add">Rath Rd, Lingaraj Nagar, Old Town, Bhubaneswar</string>
+    <string name="temp2">ISKCON Temple</string>
+    <string name="temp2_add">Nayapalli, Bhubaneswar</string>
+    <string name="temp3">Jagannath Temple</string>
+    <string name="temp3_add">Puri, Odisha</string>
 </resources>
