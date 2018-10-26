@@ -7,8 +7,9 @@
     android:id="@+id/text_container">
 
     <ImageView
+        android:layout_margin="@dimen/margin2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="@dimen/img_size"
         android:scaleType="centerCrop"
         android:id="@+id/image"/>
 
@@ -19,7 +20,7 @@
         android:layout_marginTop="@dimen/margin1"
         android:layout_marginRight="@dimen/margin1"
         android:layout_marginLeft="@dimen/margin1"
-        android:layout_marginBottom="@dimen/margin1"
+        android:layout_marginBottom="@dimen/margin2"
         android:textStyle="bold"
         android:textSize="@dimen/title_size"
         android:textColor="@android:color/black"
